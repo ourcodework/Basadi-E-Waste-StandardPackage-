@@ -2,7 +2,7 @@ import React from 'react'
 
 function HeroSection() {
     return (
-        <section className="relative min-h-screen flex items-center bg-hero-gradient overflow-hidden">
+        <section className="relative min-h-screen flex items-center bg-[#16A249] overflow-hidden">
             {/* Background Image Overlay */}
             <div
                 className="absolute inset-0 bg-cover bg-center opacity-20"
