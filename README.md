@@ -1,7 +1,3 @@
-Here’s a clean **GitHub README.md** draft for your business website, using only the extracted business-related information from the intake document:
-
----
-
 # Basadi E-WASTE
 
 **Tagline:** *Your female recyclables*
