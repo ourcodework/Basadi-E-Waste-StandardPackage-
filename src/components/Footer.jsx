@@ -1,4 +1,5 @@
 import React from 'react'
+import logo from '../assets/images/Basadi-E-Waste-Logo.png'
 import { Recycle, Mail, Phone, MapPin } from "lucide-react";
 
 function Footer() {
@@ -9,20 +10,25 @@ function Footer() {
           {/* Brand */}
           <div className="lg:col-span-2">
             <div className="flex items-center gap-3 mb-4">
-              <div className="w-10 h-10 bg-[#2FC1B2] rounded-lg flex items-center justify-center">
-                <Recycle size={24} className="text-white" />
+              <div className="w-24">
+                {/* <Recycle size={24} className="text-white" /> */}
+                <img
+                  src={logo}
+                  alt="Basadi E-WASTE Logo"
+                  className="w-24 rounded-2xl shadow-strong "
+                />
               </div>
-              <h3 className="text-2xl font-bold text-[#F6FBF6]">Basadi E-WASTE</h3>
+              {/* <h3 className="text-2xl font-bold text-[#F6FBF6]">Basadi E-WASTE</h3> */}
             </div>
             <p className="text-white/80 mb-6 max-w-md leading-relaxed">
-              Leading the charge in sustainable e-waste recycling across Africa. 
+              Leading the charge in sustainable e-waste recycling across Africa.
               Empowering women, transforming communities, and building a circular future.
             </p>
             <p className="text-[#2FC1B2] font-semibold">
               Because the future is female, and the future is now.
             </p>
           </div>
-          
+
           {/* Quick Links */}
           <div>
             <h4 className="font-semibold text-lg mb-4 text-[#F6FBF6]">Quick Links</h4>
@@ -33,7 +39,7 @@ function Footer() {
               <li><a href="#contact" className="text-white/80 hover:text-white transition-smooth">Contact</a></li>
             </ul>
           </div>
-          
+
           {/* Contact Info */}
           <div>
             <h4 className="font-semibold text-lg mb-4 text-[#F6FBF6]">Contact Info</h4>
@@ -53,7 +59,7 @@ function Footer() {
             </div>
           </div>
         </div>
-        
+
         <div className="border-t border-primary-foreground/20 mt-12 pt-8 flex flex-col md:flex-row justify-between items-center gap-4">
           <p className="text-white/80 text-sm">
             © 2024 Basadi E-WASTE. All rights reserved.
