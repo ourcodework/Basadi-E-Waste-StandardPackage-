@@ -1,4 +1,5 @@
 import React from 'react'
+import heroImage from '../assets/images/hero-image.jpg'
 
 function HeroSection() {
     return (
@@ -6,7 +7,7 @@ function HeroSection() {
             {/* Background Image Overlay */}
             <div
                 className="absolute inset-0 bg-cover bg-center opacity-20"
-                // style={{ backgroundImage: `url(${heroImage})` }}
+                style={{ backgroundImage: `url(${heroImage})` }}
             />
 
             {/* Content */}
@@ -32,15 +33,15 @@ function HeroSection() {
                     </p>
 
                     <div className="flex flex-col sm:flex-row gap-4">
-                        <button size="lg" variant="secondary" className="bg-primary-foreground text-primary hover:bg-primary-foreground/90 font-semibold">
+                        <button className="bg-[#FAFAFA] text-[#16A249] hover:bg-white/90 font-semibold h-11 rounded-md px-8">
                             Learn Our Impact
                         </button>
-                        <button size="lg" variant="outline" className="border-primary-foreground text-primary-foreground hover:bg-primary-foreground hover:text-primary font-semibold">
+                        <button className="border border-input border-[#FAFAFA]  text-[#FAFAFA] hover:bg-white/90 hover:text-[#16A249] font-semibold h-11 rounded-md px-8">
                             Partner With Us
                         </button>
                     </div>
 
-                    <p className="text-accent font-bold text-lg mt-8">
+                    <p className="text-[#2FC1B2] font-bold text-lg mt-8">
                         Because the future is female, and the future is now.
                     </p>
                 </div>
