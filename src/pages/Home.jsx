@@ -6,6 +6,7 @@ import ServiceSection from '../components/ServiceSection'
 import ReviewSection from '../components/ReviewSection'
 import ContactSection from '../components/ContactSection'
 import Footer from '../components/Footer'
+import TeamSection from '../components/TeamSection'
 
 function Home() {
   return (
@@ -14,6 +15,7 @@ function Home() {
       <HeroSection />
       <AboutSection />
       <ServiceSection />
+      <TeamSection />
       <ReviewSection />
       <ContactSection />
       <Footer />
