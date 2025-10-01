@@ -1,5 +1,5 @@
 import React from 'react'
-import teamImage from '../assets/images/about-image.jpg'
+import teamImage from '../assets/images/team-collaboration.jpg'
 
 function AboutSection() {
   return (

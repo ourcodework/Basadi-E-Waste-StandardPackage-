@@ -2,6 +2,7 @@ import React from 'react'
 import NavBar from '../components/NavBar'
 import HeroSection from '../components/HeroSection'
 import AboutSection from '../components/AboutSection'
+import ServiceSection from '../components/ServiceSection'
 import Footer from '../components/Footer'
 
 function Home() {
@@ -10,6 +11,7 @@ function Home() {
       <NavBar />
       <HeroSection />
       <AboutSection />
+      <ServiceSection />
       <Footer />
     </div>
     

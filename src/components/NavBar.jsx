@@ -10,9 +10,10 @@ function NavBar() {
           </div>
           
           <div className="hidden md:flex items-center space-x-8">
+            <a href="#about" className="text-foreground hover:text-[#16A249] transition-smooth">Home</a>
             <a href="#about" className="text-foreground hover:text-[#16A249] transition-smooth">About</a>
             <a href="#services" className="text-foreground hover:text-[#16A249] transition-smooth">Services</a>
-            <a href="#impact" className="text-foreground hover:text-[#16A249] transition-smooth">Impact</a>
+            {/* <a href="#impact" className="text-foreground hover:text-[#16A249] transition-smooth">Impact</a> */}
             <a href="#contact" className="text-foreground hover:text-[#16A249] transition-smooth">Contact</a>
           </div>
           
