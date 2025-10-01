@@ -3,8 +3,9 @@ import NavBar from '../components/NavBar'
 import HeroSection from '../components/HeroSection'
 import AboutSection from '../components/AboutSection'
 import ServiceSection from '../components/ServiceSection'
-import Footer from '../components/Footer'
+import ReviewSection from '../components/ReviewSection'
 import ContactSection from '../components/ContactSection'
+import Footer from '../components/Footer'
 
 function Home() {
   return (
@@ -13,6 +14,7 @@ function Home() {
       <HeroSection />
       <AboutSection />
       <ServiceSection />
+      <ReviewSection />
       <ContactSection />
       <Footer />
     </div>
