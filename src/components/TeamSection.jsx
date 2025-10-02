@@ -4,24 +4,22 @@ import { Users } from "lucide-react";
 function TeamSection() {
     const teamMembers = [
         {
+            image: "",
             name: "Kgothatso Ndema",
             role: "Founder & Director",
             description: "Vision & Strategy",
         },
         {
+            image: "",
             name: "Kagiso Maphatane",
             role: "Operations Manager",
             description: "Day-to-day operations & recycling processes",
         },
         {
+            image: "",
             name: "Goitsemang Maphosa",
             role: "Senior Administrator",
             description: "Organizational & administrative support",
-        },
-        {
-            name: "Boitumelo Msiza",
-            role: "Finance Officer",
-            description: "Financial management & sustainability",
         },
     ];
 
@@ -38,18 +36,25 @@ function TeamSection() {
                     </p>
                 </div>
 
-                <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6 max-w-7xl mx-auto">
+                <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8 max-w-5xl mx-auto">
                     {teamMembers.map((member, index) => (
                         <div
                             key={index}
                             className="bg-white border border-gray-200 rounded-lg shadow-soft hover:shadow-medium transition-all"
                         >
-                            <div className='space-y-1.5 p-6'>
+                            <div className='flex items-center justify-center py-4'>
+                                <img
+                                    src={member.image}
+                                    alt="Team Image"
+                                    className="w-72 h-48 bg-green-600 shadow-strong"
+                                />
+                            </div>
+                            <div className='flex justify-center'>
                                 <div className="text-xl text-card-foreground font-semibold">
                                     {member.name}
                                 </div>
                             </div>
-                            <div className='p-6 pt-0'>
+                            <div className='text-center py-4'>
                                 <p className="text-[#16A249] font-semibold mb-2">{member.role}</p>
                                 <p className="text-gray-500 text-sm">
                                     {member.description}

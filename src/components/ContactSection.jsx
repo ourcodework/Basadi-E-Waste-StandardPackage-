@@ -68,42 +68,66 @@ function ContactSection() {
                         <div className="rounded-lg border border-gray-200 p-8 bg-white/90 shadow-medium">
                             <h3 className="text-2xl font-bold text-foreground mb-6">Send Us a Message</h3>
 
-                            <form className="space-y-6">
+                            <form className="space-y-6" autoComplete='on'>
                                 <div className="grid sm:grid-cols-2 gap-4">
                                     <div>
-                                        <label className="block text-sm font-medium text-foreground mb-2">
+                                        <label className="block text-sm font-medium text-foreground mb-2" for="fname">
                                             First Name
                                         </label>
-                                        <input className='h-10 w-full rounded-md border border-gray-200 px-3 py-2 focus-visible:ring-2' placeholder="Your first name" />
+                                        <input
+                                            id='fname'
+                                            name='fname'
+                                            type='text'
+                                            className='h-10 w-full rounded-md border border-gray-200 px-3 py-2 focus-visible:ring-2'
+                                            placeholder="Your first name"
+                                        />
                                     </div>
                                     <div>
-                                        <label className="block text-sm font-medium text-foreground mb-2">
+                                        <label className="block text-sm font-medium text-foreground mb-2" for="lname">
                                             Last Name
                                         </label>
-                                        <input className='h-10 w-full rounded-md border border-gray-200 px-3 py-2 ' placeholder="Your last name" />
+                                        <input
+                                            id='lname'
+                                            name='lname'
+                                            type='text'
+                                            className='h-10 w-full rounded-md border border-gray-200 px-3 py-2 '
+                                            placeholder="Your last name"
+                                        />
                                     </div>
                                 </div>
 
                                 <div className="grid sm:grid-cols-2 gap-4">
                                     <div>
-                                        <label className="block text-sm font-medium text-foreground mb-2">
+                                        <label className="block text-sm font-medium text-foreground mb-2" for="email">
                                             Email
                                         </label>
-                                        <input className='h-10 w-full rounded-md border border-gray-200 px-3 py-2 ' type="email" placeholder="your@email.com" />
+                                        <input
+                                            id='email'
+                                            name='email'
+                                            className='h-10 w-full rounded-md border border-gray-200 px-3 py-2 '
+                                            type="email"
+                                            placeholder="your@email.com" />
                                     </div>
                                     <div>
-                                        <label className="block text-sm font-medium text-foreground mb-2">
+                                        <label className="block text-sm font-medium text-foreground mb-2" for="company">
                                             Organization
                                         </label>
-                                        <input className='h-10 w-full rounded-md border border-gray-200 px-3 py-2 ' placeholder="Your organization" />
+                                        <input
+                                            id='company'
+                                            name='company'
+                                            type='company'
+                                            className='h-10 w-full rounded-md border border-gray-200 px-3 py-2 '
+                                            placeholder="Your organization" />
                                     </div>
                                 </div>
 
                                 <div>
-                                    <label className="block text-sm font-medium text-foreground mb-2">
+                                    <label className="block text-sm font-medium text-foreground mb-2" for="message">
                                         How can we help you?
                                     </label>
                                     <textarea
+                                        id='message'
+                                        name='message'
                                         className='min-h-[80px] w-full rounded-md border border-gray-200 px-3 py-2 '
                                         placeholder="Tell us about your project or how you'd like to collaborate..."
                                         rows={6}

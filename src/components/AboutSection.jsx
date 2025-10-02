@@ -19,7 +19,7 @@ function AboutSection() {
             </p>
             
             <div className="grid sm:grid-cols-2 gap-6 mb-8">
-              <div className="rounded-lg border p-6 bg-[#FBFCFB] shadow-soft hover:shadow-medium transition-smooth">
+              <div className="rounded-lg p-6 bg-[#FBFCFB] shadow-soft hover:shadow-medium transition-smooth">
                 <h3 className="font-semibold text-[#16A249] mb-2">Women-Led Innovation</h3>
                 <p className="text-sm text-[#64748B]">
                   Pioneering sustainable solutions with female leadership at every level
