@@ -3,7 +3,7 @@ import logo from '../assets/images/Basadi-E-Waste-Logo.png'
 
 function NavBar() {
   return (
-    <nav className="fixed top-0 left-0 right-0 z-50 bg-[#F6FBF6]/95 backdrop-blur-sm border-b border-border">
+    <nav className="fixed top-0 left-0 right-0 z-50 bg-[#F6FBF6]/95 backdrop-blur-sm border-b border-gray-300">
       <div className="container mx-auto px-4 py-4">
         <div className="flex items-center justify-between">
           <div className="flex items-center space-x-2">
