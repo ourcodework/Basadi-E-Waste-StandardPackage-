@@ -10,7 +10,7 @@ import TeamSection from '../components/TeamSection'
 
 function Home() {
   return (
-    <div className='min-h-screen'>
+    <main className='min-h-screen'>
       <NavBar />
       <HeroSection />
       <AboutSection />
@@ -19,7 +19,7 @@ function Home() {
       <ReviewSection />
       <ContactSection />
       <Footer />
-    </div>
+    </main>
     
   )
 }
