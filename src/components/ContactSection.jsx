@@ -3,7 +3,7 @@ import { Mail, Phone, MapPin } from "lucide-react";
 
 function ContactSection() {
     return (
-        <section id="contact" className="py-20 bg-[#F6FBF6]/95">
+        <section id="contact" className="py-20 bg-white/80">
             <div className="container mx-auto px-4">
                 <div className="text-center mb-16">
                     <h2 className="text-4xl md:text-5xl font-bold text-foreground mb-6">
@@ -47,7 +47,7 @@ function ContactSection() {
                                 </div>
                                 <div>
                                     <h4 className="font-semibold text-foreground">Location</h4>
-                                    <p className="text-gray-500">Johannesburg, South Africa</p>
+                                    <p className="text-gray-500">Pretoria, South Africa</p>
                                 </div>
                             </div>
                         </div>

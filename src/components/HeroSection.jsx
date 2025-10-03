@@ -1,9 +1,10 @@
 import React from 'react'
-import heroImage from '../assets/images/hero-image.jpg'
+import heroImage from '../assets/images/own-hero-image1.jpg'
+
 
 function HeroSection() {
     return (
-        <section className="relative min-h-screen flex items-center bg-[#16A249] overflow-hidden">
+        <section id='home' className="relative sm:h-90 min-h-screen flex items-center bg-[#16A249] overflow-hidden">
             {/* Background Image Overlay */}
             <div
                 className="absolute inset-0 bg-cover bg-center opacity-20"
@@ -23,13 +24,13 @@ function HeroSection() {
                     </p>
 
                     <p className="text-lg text-[#FAFAFA]/80 mb-8 max-w-2xl leading-relaxed">
-                        At Basadi E-WASTE, we go beyond recycling — we innovate, empower, and transform.
+                        At Basadi E-WASTE, we go beyond recycling, we innovate, empower, and transform.
                         Led by women, inspired by change, and driven by a bold vision for a cleaner, smarter Africa.
                     </p>
 
                     <p className="text-lg text-[#FAFAFA]/80 mb-12 max-w-2xl leading-relaxed">
                         Innovation meets sustainability as we turn electronic waste into new opportunities,
-                        green jobs, and a thriving circular economy. Join us on the journey to power progress — responsibly.
+                        green jobs, and a thriving circular economy. Join us on the journey to power progress responsibly.
                     </p>
 
                     <div className="flex flex-col sm:flex-row gap-4">

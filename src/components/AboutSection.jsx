@@ -1,9 +1,10 @@
 import React from 'react'
-import teamImage from '../assets/images/team-collaboration.jpg'
+// import teamImage from '../assets/images/team-collaboration.jpg'
+import founderImage from '../assets/images/founder.png'
 
 function AboutSection() {
   return (
-     <section id="about" className="py-20 bg-[#EEF5F2]">
+     <section id="about" className="py-20  bg-[#EEF5F2]">
       <div className="container mx-auto px-4">
         <div className="grid lg:grid-cols-2 gap-12 items-center">
           <div>
@@ -49,16 +50,16 @@ function AboutSection() {
             </div>
           </div>
           
-          <div className="relative">
+          <div className="flex justify-center md:justify-end ">
             <img 
-              src={teamImage}
+              src={founderImage}
               alt="Basadi E-WASTE team collaboration"
-              className="rounded-2xl shadow-strong"
+              className="w-96 shadow-strong border-4 border-green-500 rounded-full"
             />
-            <div className="absolute -bottom-6 -right-6 bg-[#16A249] text-primary-foreground p-6 rounded-xl shadow-medium">
+            {/* <div className="absolute -bottom-6 -right-6 bg-[#16A249] text-primary-foreground p-6 rounded-xl shadow-medium">
               <p className="font-bold text-2xl">100%</p>
               <p className="text-sm">Women-Led</p>
-            </div>
+            </div> */}
           </div>
         </div>
       </div>

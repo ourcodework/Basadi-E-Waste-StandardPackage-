@@ -20,13 +20,13 @@ function NavBar() {
             <img
               src={logo}
               alt="Basadi E-WASTE Logo"
-              className="w-20 rounded-2xl shadow-strong "
+              className="w-20 shadow-strong "
             />
           </div>
 
           {/* Desktop Navigation */}
           <div className="hidden md:flex items-center space-x-8">
-            <a href="#about" className="font-semibold text-foreground hover:text-[#16A249] transition-smooth">Home</a>
+            <a href="#home" className="font-semibold text-foreground hover:text-[#16A249] transition-smooth">Home</a>
             <a href="#about" className="font-semibold text-foreground hover:text-[#16A249] transition-smooth">About</a>
             <a href="#services" className="font-semibold text-foreground hover:text-[#16A249] transition-smooth">Services</a>
             <a href="#contact" className="font-semibold text-foreground hover:text-[#16A249] transition-smooth">Contact</a>
