@@ -2,8 +2,8 @@ import React from 'react'
 import { FaWhatsapp } from "react-icons/fa";
 
 function FloatingWhatsApp() {
-    const phoneNumber = "27713132387";
-    const message = "Hi, testing whats app feature!";
+    const phoneNumber = "27696485085";
+    const message = "Good Day.";
     return (
         <a
             href={`https://wa.me/${phoneNumber}?text=${encodeURIComponent(message)}`}

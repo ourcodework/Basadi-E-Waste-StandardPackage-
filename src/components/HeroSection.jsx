@@ -5,17 +5,16 @@ import heroImage from '../assets/images/own-hero-image1.jpg'
 function HeroSection() {
     return (
         <section id='home' className="relative sm:h-90 min-h-screen flex items-center bg-[#16A249] overflow-hidden">
-
             {/* Background Image Overlay */}
             <div
                 className="absolute inset-0 bg-cover bg-center opacity-20"
                 style={{ backgroundImage: `url(${heroImage})` }}
             />
-
             {/* Content */}
             <div className="container mx-auto px-4 relative z-10">
                 <div className="max-w-4xl">
-                    <h1 className="text-5xl md:text-7xl font-bold text-[#FAFAFA] mb-6 leading-tight">
+                    <h1
+                        className="text-5xl md:text-7xl font-bold text-[#FAFAFA] mb-6 leading-tight">
                         Welcome to<br />
                         <span className="text-[#2FC1B2]">Basadi E-WASTE</span>
                     </h1>
@@ -35,12 +34,12 @@ function HeroSection() {
                     </p>
 
                     <div className="flex flex-col sm:flex-row gap-4">
-                        <button className="bg-[#FAFAFA] text-[#16A249] hover:bg-white/90 font-semibold h-11 rounded-md px-8">
-                            Learn Our Impact
-                        </button>
-                        <button className="border border-input border-[#FAFAFA]  text-[#FAFAFA] hover:bg-white/90 hover:text-[#16A249] font-semibold h-11 rounded-md px-8">
+                        <a href="#services" className="flex items-center justify-center bg-[#FAFAFA] text-[#16A249] hover:bg-white/90 font-semibold h-11 rounded-md px-8">
+                            Our Services
+                        </a>
+                        <a href="#contact" className="flex items-center justify-center border border-input border-[#FAFAFA]  text-[#FAFAFA] hover:bg-white/90 hover:text-[#16A249] font-semibold h-11 rounded-md px-8">
                             Partner With Us
-                        </button>
+                        </a>
                     </div>
 
                     <p className="text-[#2FC1B2] font-bold text-lg mt-8">
