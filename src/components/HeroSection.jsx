@@ -5,6 +5,13 @@ import heroImage from '../assets/images/own-hero-image1.jpg'
 function HeroSection() {
     return (
         <section id='home' className="relative sm:h-90 min-h-screen flex items-center bg-[#16A249] overflow-hidden">
+            {/* Meta tags for SEO optimization */}
+            <div>
+                <meta title="Basadi E-Waste | Home" />
+                <meta description="Recycle your old electronics safely and responsibly with Basadi E-Waste Recycling in South Africa." />
+                <meta keywords="e-waste recycling, recycle electronics, safe disposal, eco-friendly recycling" />
+                <meta canonical="https://www.basadiewaste.co.za/#home" />
+            </div>
             {/* Background Image Overlay */}
             <div
                 className="absolute inset-0 bg-cover bg-center opacity-20"

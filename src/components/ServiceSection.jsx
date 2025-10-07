@@ -37,6 +37,13 @@ function ServiceSection() {
 
     return (
         <section id="services" className="py-20 bg-white/80">
+            {/* Meta tags for SEO optimization */}
+            <div>
+                <meta title="Basadi E-Waste | Service" />
+                <meta description="Explore our e-waste recycling services: collection, drop-off recycling centers, and corporate disposal programs across South Africa." />
+                <meta keywords="Basadi e-waste services, electronics, waste recycling South Africa, disposal programs" />
+                <meta canonical="https://www.basadiewaste.co.za/#service" />
+            </div>
             <div className="container mx-auto px-4">
                 <div className="text-center mb-16">
                     <h2 className="text-4xl md:text-5xl font-bold text-foreground mb-6">
@@ -73,10 +80,6 @@ function ServiceSection() {
                                     </li>
                                 ))}
                             </ul>
-
-                            {/* <button variant="outline" size="sm" className="w-full group-hover:bg-primary group-hover:text-primary-foreground group-hover:border-primary transition-smooth">
-                                Learn More
-                            </button> */}
                         </div>
                     ))}
                 </div>

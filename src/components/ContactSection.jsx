@@ -1,6 +1,7 @@
 import React, { useState } from 'react'
 import { Mail, Phone, MapPin } from "lucide-react";
 import { ToastContainer, toast } from 'react-toastify';
+import Seo from '../components/Seo';
 
 function ContactSection() {
 
@@ -31,6 +32,13 @@ function ContactSection() {
 
     return (
         <section id="contact" className="py-20 bg-white/80">
+            {/* Meta tags for SEO optimization */}
+            <div>
+                <meta title="Basadi E-Waste | Contact" />
+                <meta description="Get in touch with Basadi Ewaste for e-waste recycling solutions in South Africa. Call, email, or visit our center." />
+                <meta keywords="contact basadi e-waste recycling, Basadi Ewaste contact South Africa" />
+                <meta canonical="https://www.basadiewaste.co.za/#contact" />
+            </div>
             <div className="container mx-auto px-4">
                 <div className="text-center mb-16">
                     <h2 className="text-4xl md:text-5xl font-bold text-foreground mb-6">
@@ -172,11 +180,8 @@ function ContactSection() {
                                     type='submit'
                                     className="h-11 rounded-md px-8 w-full bg-[#16A249] hover:bg-[#16A249]/90 text-white font-medium"
                                 >
-                                   Send Message
+                                    Send Message
                                 </button>
-                                {/* <div className='flex items-center justify-center'>
-                                    {result}
-                                </div> */}
                                 <ToastContainer position="bottom-center" />
                             </form>
                         </div>

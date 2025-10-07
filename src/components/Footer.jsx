@@ -64,11 +64,6 @@ function Footer() {
           <p className="text-white/80 text-sm text-center">
             © 2024 Basadi E-WASTE. All rights reserved.
           </p>
-          {/* <div className="flex gap-6 text-sm">
-            <a href="#" className="text-white/80 hover:text-white transition-smooth">Privacy Policy</a>
-            <a href="#" className="text-white/80 hover:text-white transition-smooth">Terms of Service</a>
-            <a href="#" className="text-white/80 hover:text-white transition-smooth">Sustainability Report</a>
-          </div> */}
         </div>
       </div>
     </footer>
