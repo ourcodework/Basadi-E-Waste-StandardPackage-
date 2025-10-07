@@ -5,6 +5,7 @@ import heroImage from '../assets/images/own-hero-image1.jpg'
 function HeroSection() {
     return (
         <section id='home' className="relative sm:h-90 min-h-screen flex items-center bg-[#16A249] overflow-hidden">
+
             {/* Background Image Overlay */}
             <div
                 className="absolute inset-0 bg-cover bg-center opacity-20"

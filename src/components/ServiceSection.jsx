@@ -1,5 +1,5 @@
 import React from 'react'
-import { Recycle, Lightbulb, Users, Leaf } from "lucide-react";
+import { Recycle, Lightbulb, Users, Leaf,Trash2 } from "lucide-react";
 
 function ServiceSection() {
     const services = [
@@ -26,6 +26,12 @@ function ServiceSection() {
             title: "Sustainability Consulting",
             description: "Expert consulting services to help businesses implement sustainable e-waste management practices.",
             features: ["Sustainability audits", "Implementation planning", "Compliance support"]
+        },
+        {
+            icon: Trash2,
+            title: "General Waste Management and Recycling",
+            description: "Comprehensive waste management solutions for businesses and communities, promoting circular economy practices.",
+            features: ["Waste collection services", "Sorting and processing", "Recycling solutions"]
         }
     ];
 
@@ -42,7 +48,7 @@ function ServiceSection() {
                     </p>
                 </div>
 
-                <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
+                <div className="grid md:grid-cols-2 lg:grid-cols-5 gap-8">
                     {services.map((service, index) => (
                         <div key={index} className="rounded-lg border border-gray-200 bg-white shadow p-8 bg-card-gradient hover:shadow-green-200 transition-smooth group">
                             <div className="mb-6">
