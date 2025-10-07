@@ -50,11 +50,11 @@ function Footer() {
               </div>
               <div className="flex items-center gap-3">
                 <Phone size={16} className="text-[#2FC1B2]" />
-                <span className="text-white/80 text-sm">+27 11 123 4567</span>
+                <span className="text-white/80 text-sm">+27 12 881 6988</span>
               </div>
               <div className="flex items-center gap-3">
                 <MapPin size={16} className="text-[#2FC1B2]" />
-                <span className="text-white/80 text-sm">Pretoria, South Africa</span>
+                <span className="text-white/80 text-sm">TUT soshanguve campus, Pretoria 0152</span>
               </div>
             </div>
           </div>

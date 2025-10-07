@@ -37,7 +37,7 @@ function ContactSection() {
                                 </div>
                                 <div>
                                     <h4 className="font-semibold text-foreground">Phone</h4>
-                                    <p className="text-gray-500">+27 11 123 4567</p>
+                                    <p className="text-gray-500">+27 12 881 6988</p>
                                 </div>
                             </div>
 
@@ -47,7 +47,7 @@ function ContactSection() {
                                 </div>
                                 <div>
                                     <h4 className="font-semibold text-foreground">Location</h4>
-                                    <p className="text-gray-500">Pretoria, South Africa</p>
+                                    <p className="text-gray-500">TUT soshanguve campus, corner Aubrey Matlakala and college rd, Soshanguve, Block K, Pretoria 0152, South Africa</p>
                                 </div>
                             </div>
                         </div>
