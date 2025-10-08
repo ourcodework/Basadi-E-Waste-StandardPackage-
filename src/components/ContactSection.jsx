@@ -1,7 +1,7 @@
 import React, { useState } from 'react'
 import { Mail, Phone, MapPin } from "lucide-react";
 import { ToastContainer, toast } from 'react-toastify';
-import Seo from '../components/Seo';
+// import Seo from '../components/Seo';
 
 function ContactSection() {
 
@@ -9,7 +9,7 @@ function ContactSection() {
         event.preventDefault();
 
         const formData = new FormData(event.target);
-        formData.append("access_key", "d9976922-c41d-440a-adbd-624e9448ec3c");
+        formData.append("access_key", "bb6071b9-4583-41d7-8a8c-bc41b6c44623");
 
         try {
             const response = await fetch("https://api.web3forms.com/submit", {
@@ -62,7 +62,7 @@ function ContactSection() {
                                 </div>
                                 <div>
                                     <h4 className="font-semibold text-foreground">Email</h4>
-                                    <p className="text-gray-500">info@basadiewaste.co.za</p>
+                                    <p className="text-gray-500">operations@basadiewaste.co.za</p>
                                 </div>
                             </div>
 

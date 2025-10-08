@@ -46,7 +46,7 @@ function Footer() {
             <div className="space-y-3">
               <div className="flex items-center gap-3">
                 <Mail size={16} className="text-[#2FC1B2]" />
-                <span className="text-white/80 text-sm">info@basadiewaste.co.za</span>
+                <span className="text-white/80 text-sm">operations@basadiewaste.co.za</span>
               </div>
               <div className="flex items-center gap-3">
                 <Phone size={16} className="text-[#2FC1B2]" />
