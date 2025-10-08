@@ -39,7 +39,7 @@ function ContactSection() {
                 <meta keywords="contact basadi e-waste recycling, Basadi Ewaste contact South Africa" />
                 <meta canonical="https://www.basadiewaste.co.za/#contact" />
             </div>
-            <div className="container mx-auto px-4">
+            <div className="container mx-auto px-4 py-20">
                 <div className="text-center mb-16">
                     <h2 className="text-4xl md:text-5xl font-bold text-foreground mb-6">
                         Ready to Make an <span className="text-[#16A249]">Impact</span>?

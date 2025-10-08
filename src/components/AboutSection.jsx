@@ -12,7 +12,7 @@ function AboutSection() {
         <meta keywords="about e-waste recycling, GreenTech South Africa, electronics disposal" />
         <meta canonical="https://www.basadiewaste.co.za/#about" />
       </div>
-      <div className="container mx-auto px-4">
+      <div className="container mx-auto py-20">
         <div className="grid lg:grid-cols-2 gap-12 items-center">
           <div>
             <h2 className="text-4xl md:text-5xl font-bold text-foreground mb-6">

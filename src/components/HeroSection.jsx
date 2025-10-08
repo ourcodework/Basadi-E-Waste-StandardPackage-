@@ -19,7 +19,7 @@ function HeroSection() {
             />
             {/* Content */}
             <div className="container mx-auto px-4 relative z-10">
-                <div className="max-w-4xl">
+                <div className="max-w-4xl py-20">
                     <h1
                         className="text-5xl md:text-7xl font-bold text-[#FAFAFA] mb-6 leading-tight">
                         Welcome to<br />

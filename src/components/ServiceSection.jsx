@@ -44,7 +44,7 @@ function ServiceSection() {
                 <meta keywords="Basadi e-waste services, electronics, waste recycling South Africa, disposal programs" />
                 <meta canonical="https://www.basadiewaste.co.za/#service" />
             </div>
-            <div className="container mx-auto px-4">
+            <div className="container mx-auto px-4 py-20">
                 <div className="text-center mb-16">
                     <h2 className="text-4xl md:text-5xl font-bold text-foreground mb-6">
                         Our <span className="text-[#16A249]">Services</span>
