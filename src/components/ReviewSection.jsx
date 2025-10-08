@@ -18,7 +18,7 @@ function ReviewSection() {
             <div className="container mx-auto px-4">
                 <div className="text-center mb-12">
                     <h2 className="text-4xl font-bold text-foreground mb-4">
-                        What Our Clients Say
+                        What Our <span className='text-[#16A249]'>Clients</span> Say
                     </h2>
                     <p className="text-lg text-gray-500 max-w-2xl mx-auto">
                         Trusted by businesses across Africa for secure and sustainable e-waste solutions

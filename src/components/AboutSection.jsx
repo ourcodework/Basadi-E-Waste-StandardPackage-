@@ -1,5 +1,6 @@
 import React from 'react'
-import founderImage from '../assets/images/founder.png'
+// import founderImage from '../assets/images/founder.png'
+import teamImage from '../assets/images/team-collaboration.jpeg'
 
 function AboutSection() {
   return (
@@ -58,9 +59,9 @@ function AboutSection() {
 
           <div className="flex justify-center md:justify-end ">
             <img
-              src={founderImage}
+              src={teamImage}
               alt="Basadi E-WASTE team collaboration"
-              className="w-96 shadow-strong border-4 border-green-500 rounded-full"
+              className="w-[550px] h-[450px] rounded-lg shadow-strong"
             />
           </div>
         </div>

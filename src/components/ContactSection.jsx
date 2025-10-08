@@ -44,7 +44,7 @@ function ContactSection() {
                     <h2 className="text-4xl md:text-5xl font-bold text-foreground mb-6">
                         Ready to Make an <span className="text-[#16A249]">Impact</span>?
                     </h2>
-                    <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
+                    <p className="text-xl text-gray-500 max-w-3xl mx-auto">
                         Join us in building a sustainable future. Whether you're a business, community organization,
                         or individual, we'd love to hear from you.
                     </p>

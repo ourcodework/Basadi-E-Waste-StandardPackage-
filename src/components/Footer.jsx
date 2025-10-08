@@ -1,6 +1,7 @@
 import React from 'react'
 import logo from '../assets/images/Basadi-E-Waste-Logo.png'
-import { Recycle, Mail, Phone, MapPin } from "lucide-react";
+import { Mail, Phone, MapPin, Facebook, Linkedin } from "lucide-react";
+import { PiTiktokLogoLight } from 'react-icons/pi';
 
 function Footer() {
   return (
@@ -57,10 +58,47 @@ function Footer() {
                 <span className="text-white/80 text-sm">TUT soshanguve campus, Pretoria 0152</span>
               </div>
             </div>
+            <div className='mt-4'>
+              <ul className='flex gap-2'>
+                <li
+                  className='w-10 h-10 flex items-center justify-center rounded-full bg-[#2FC1B2]/20'
+                >
+                  <a
+                    href="https://www.facebook.com/basadiewaste/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    <Facebook className='text-[#2FC1B2] hover:text-white/80' />
+                  </a>
+                </li>
+                <li
+                  className='w-10 h-10 flex items-center justify-center rounded-full bg-[#2FC1B2]/20'
+                >
+                  <a
+                    href=" https://www.linkedin.com/in/kgothatso-ndema-a6b15272/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    <Linkedin className='text-[#2FC1B2] hover:text-white/80' size={20} />
+                  </a>
+                </li>
+                <li
+                  className='w-10 h-10 flex items-center justify-center rounded-full bg-[#2FC1B2]/20'
+                >
+                  <a
+                    href="https://www.tiktok.com/@basadi.ewaste"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    <PiTiktokLogoLight className='text-[#2FC1B2] hover:text-white/80' size={24} />
+                  </a>
+                </li>
+              </ul>
+            </div>
           </div>
         </div>
 
-        <div className="border-t border-primary-foreground/20 mt-12 pt-8 flex flex-col md:flex-row justify-center items-center gap-4">
+        <div className="border-t border-gray-600/30 mt-12 pt-8 flex flex-col md:flex-row justify-center items-center gap-4">
           <p className="text-white/80 text-sm text-center">
             © 2024 Basadi E-WASTE. All rights reserved.
           </p>

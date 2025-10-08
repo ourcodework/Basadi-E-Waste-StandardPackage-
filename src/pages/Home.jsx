@@ -7,6 +7,7 @@ import ReviewSection from '../components/ReviewSection'
 import ContactSection from '../components/ContactSection'
 import Footer from '../components/Footer'
 import FloatingWhatsApp from '../components/FloatingWhatsApp'
+import TeamSection from '../components/TeamSection'
 
 function Home() {
   return (
@@ -14,6 +15,7 @@ function Home() {
       <NavBar />
       <HeroSection />
       <AboutSection />
+      <TeamSection />
       <ServiceSection />
       <ReviewSection />
       <ContactSection />
