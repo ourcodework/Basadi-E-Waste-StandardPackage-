@@ -4,7 +4,7 @@ import heroImage from '../assets/images/own-hero-image1.jpg'
 
 function HeroSection() {
     return (
-        <section id='home' className="relative sm:h-90 min-h-screen flex items-center bg-[#16A249] overflow-hidden">
+        <section id='home' className="sm:h-90 min-h-screen flex justify-center bg-[#16A249] overflow-hidden lg:py-20">
             {/* Meta tags for SEO optimization */}
             <div>
                 <meta title="Basadi E-Waste | Home" />

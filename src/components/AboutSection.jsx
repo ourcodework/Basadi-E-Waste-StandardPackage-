@@ -4,7 +4,7 @@ import teamImage from '../assets/images/team-collaboration.jpeg'
 
 function AboutSection() {
   return (
-    <section id="about" className="py-20  bg-[#EEF5F2]">
+    <section id="about" className="py-6 md:py-20 bg-[#EEF5F2]">
       {/* Meta tags for SEO optimization */}
       <div>
         <meta title="Basadi E-Waste | About" />

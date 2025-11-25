@@ -3,29 +3,8 @@ import { Users } from "lucide-react";
 import founderImage from '../assets/images/founder.png'
 
 function TeamSection() {
-    const teamMembers = [
-        {
-            image: "",
-            name: "Kgothatso Ndema",
-            role: "Founder & Director",
-            description: "Vision & Strategy",
-        },
-        {
-            image: "",
-            name: "Kagiso Maphatane",
-            role: "Operations Manager",
-            description: "Day-to-day operations & recycling processes",
-        },
-        {
-            image: "",
-            name: "Goitsemang Maphosa",
-            role: "Senior Administrator",
-            description: "Organizational & administrative support",
-        },
-    ];
-
     return (
-        <section id="team" className="py-20 bg-[#F6FBF6]/95">
+        <section id="team" className="py-6 md:py-20 bg-[#F6FBF6]/95">
             <div className="container mx-auto px-4 py-20">
                 <div className="text-center mb-12">
                     <div className="flex justify-center mb-4">
