@@ -4,6 +4,7 @@ import CurriculumSection from '../components/CurriculumSection'
 import Impact from '../components/Impact'
 import Contact from '../components/Contact'
 import Footer from '../components/Footer'
+import AchievementSection from '../components/AchievementSection'
 
 const Home = () => {
   return (
@@ -12,6 +13,7 @@ const Home = () => {
         <CurriculumSection />
         <Impact />
         <Contact />
+        <AchievementSection />
         <Footer />
     </main>
   )
