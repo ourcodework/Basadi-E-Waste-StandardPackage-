@@ -1,4 +1,6 @@
 import React from 'react'
+import {MapPin, BadgeCheck} from 'lucide-react'
+
 
 const HeroSection = () => {
     const handleApplyClick = () => {
@@ -21,8 +23,18 @@ const HeroSection = () => {
                             <p className='text-lg md:text-xl font-medium text-white/80 mb-8 max-w-xl'>
                                 Empowering communities through sustainable e-waste management education and practical skills development.
                             </p>
-                            <div className='w-65 inline-flex items-center gap-2 bg-white/20 backdrop-blur-sm rounded-full px-4 py-3 mb-8 border border-white/30'>
+                            <div className='w-72 inline-flex items-center gap-2 bg-white/20 backdrop-blur-sm rounded-full px-4 py-3 mb-8 border border-white/30'>
+                                <MapPin size={16} color='white'/>
                                 <p className='font-semibold text-white'>On-Site Training at Our Centre</p>
+                            </div>
+                            <div className='inline-flex items-center gap-4 bg-white rounded-2xl px-6 py-4 shadow-xl mb-8'>
+                                <div className='w-12 h-12 bg-emerald-100 rounded-xl flex items-center justify-center'>
+                                    <BadgeCheck size={16} color='green'/>
+                                </div>
+                                <div >
+                                    <p className='font-bold text-xl text-gray-900'>R1000 - 6 Weeks - Micro-Credential</p>
+                                    <p className='text-sm text-gray-500'>Accredited skills certification</p>
+                                </div>
                             </div>
                             <div>
                                 <button
