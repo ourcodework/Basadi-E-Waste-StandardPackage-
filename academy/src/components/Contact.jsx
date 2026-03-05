@@ -42,7 +42,7 @@ const Contact = () => {
     };
 
     return (
-        <section id="contact" className="py-16 md:py-24 bg-white flex flex-col items-center justify-center gap:16">
+        <section id="contact" className="py-16 md:py-32 bg-white flex flex-col items-center justify-center gap:16">
             <div className='max-w-4xl mx-auto px-6'>
                 <div className='text-center mb-10'>
                     <span className='inline-block bg-emerald-100 text-emerald-700 font-semibold px-4 py-2 rounded-full text-sm mb-4'>Join Us</span>

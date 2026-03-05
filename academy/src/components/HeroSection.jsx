@@ -20,7 +20,7 @@ const HeroSection = () => {
                 <div className='absolute bottom-20 right-20 w-32 h-32 rounded-full bg-white/5 animate-float'></div>
                 <div className='relative z-10 max-6xl mx-auto px-6 py-14 md:py-24'>
                     <div className='flex items-center'>
-                        <div className='flex-1 flex-col gap-8'>
+                        <div className='flex-1 md:flex flex-col gap-4'>
                             <div className='flex justify-center'>
                                 <div className='flex w-37.5 items-center gap-2 bg-white/10 backdrop-blur-sm rounded-full px-4 py-2 mb-6'>
                                     <span className='w-2 h-2 bg-yellow-300 rounded-full animate-pulse'></span>
@@ -33,7 +33,7 @@ const HeroSection = () => {
                             </div>
 
                             <div className='flex justify-center text-center'>
-                                <p className='w-80 text-lg md:text-xl font-medium text-white mb-8 md:w-175'>
+                                <p className='w-80 text-lg md:text-xl font-medium text-black mb-8 md:w-175'>
                                     Empowering communities through sustainable e-waste management education and practical skills development.
                                 </p>
                             </div>

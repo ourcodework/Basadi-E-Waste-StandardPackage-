@@ -2,7 +2,7 @@ import React from 'react'
 
 const Impact = () => {
     return (
-        <section id="ourimpact" className="py-16 md:py-24 bg-emerald-50 flex flex-col items-center justify-center gap:16">
+        <section id="ourimpact" className="py-16 md:py-32 bg-emerald-50 flex flex-col items-center justify-center gap:16">
             <div className='flex flex-col items-center justify-center'>
                 <p className='inline-block bg-emerald-100 text-emerald-700 font-semibold px-4 py-2 rounded-full mb-4 text-sm'>Our Impact</p>
                 <h2 className='text-2xl text-center md:text-4xl font-bold text-gray-900 mb-4 '>Supporting Sustainable Development Goals</h2>

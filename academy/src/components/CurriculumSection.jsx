@@ -27,7 +27,7 @@ const skills = [
 
 const CurriculumSection = () => {
     return (
-        <section id="ourcurriculum" className="py-16 md:py-24 bg-white flex flex-col items-center justify-center gap:16">
+        <section id="ourcurriculum" className="py-16 md:py-32 bg-white flex flex-col items-center justify-center gap:16">
             <div>
                 <p className='inline-block bg-emerald-100 text-emerald-700 font-semibold px-4 py-2 rounded-full mb-4 text-sm'>Our Curriculum</p>
             </div>
