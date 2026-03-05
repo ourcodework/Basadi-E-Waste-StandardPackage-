@@ -1,5 +1,5 @@
 import React from 'react'
-import { Recycle, Lightbulb, Users, Leaf,Trash2 } from "lucide-react";
+import { Recycle, Lightbulb, Users, Leaf, Trash2, Building } from "lucide-react";
 
 function ServiceSection() {
     const services = [
@@ -32,7 +32,14 @@ function ServiceSection() {
             title: "General Waste Management and Recycling",
             description: "Comprehensive waste management solutions for businesses and communities, promoting circular economy practices.",
             features: ["Waste collection services", "Sorting and processing", "Recycling solutions"]
-        }
+        },
+        {
+            icon: Building,
+            title: "Basadi E-Waste Training Academy",
+            description: "Empowering communities through sustainable skills. On-site training at our centre.",
+            features: ["E-Waste Fundamentals", "Hands-On Training", "Circular Economy"],
+            link: "https://academy.basadiewaste.co.za/"
+        },
     ];
 
     return (
@@ -55,7 +62,8 @@ function ServiceSection() {
                     </p>
                 </div>
 
-                <div className="grid md:grid-cols-2 lg:grid-cols-5 gap-8">
+                {/* Card list */}
+                <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
                     {services.map((service, index) => (
                         <div key={index} className="rounded-lg border border-gray-200 bg-white shadow p-8 bg-card-gradient hover:shadow-green-200 transition-smooth group">
                             <div className="mb-6">
@@ -75,11 +83,18 @@ function ServiceSection() {
                             <ul className="space-y-2 mb-6">
                                 {service.features.map((feature, idx) => (
                                     <li key={idx} className="flex items-center text-sm text-gray-500">
-                                        <div className="w-2 h-2 bg-[#2FC1B2] rounded-full mr-3" />
+                                        <div className="w-2 h-2 bg-[#16A249] rounded-full mr-3" />
                                         {feature}
                                     </li>
                                 ))}
                             </ul>
+                            <a
+                                href={service.link}
+                                target='_blank'
+                                className={service.link ? 'bg-[#16A249] flex justify-center px-10 py-2 rounded-xl mt-4 font-medium text-white' : 'hidden'}
+                            >
+                                Apply Now
+                            </a>
                         </div>
                     ))}
                 </div>
