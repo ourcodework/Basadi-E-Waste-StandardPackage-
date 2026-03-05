@@ -10,7 +10,7 @@ const Footer = () => {
                     <h3 className='text-xl font-bold mb-2'>Basadi E-Waste Training Academy</h3>
                     <p className='text-gray-400 text-sm'>Empowering communities through sustainable skills. On-site training at our centre.</p>
                 </div>
-                <div className='flex items-center gap-2'>
+                <div className='flex flex-col text-center md:flex-row items-center gap-2'>
                     <span><Recycle color="green" size={18}/></span>
                     <span className='text-sm text-gray-400'>Building a circular economy, one certified professional at a time.</span>
                 </div>

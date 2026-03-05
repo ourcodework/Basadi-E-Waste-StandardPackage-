@@ -1,5 +1,6 @@
 import React from 'react'
 import { MapPin, BadgeCheck } from 'lucide-react'
+import heroImage from '../assets/basadiewaste-hero-section.jpeg'
 
 
 const HeroSection = () => {
@@ -8,36 +9,56 @@ const HeroSection = () => {
     };
     return (
         <section id='home' className="min-h-screen w-full px-8 sm:h-90 flex items-center justify-center gap-8 overflow-hidden lg:py-20">
+            {/* Background Image Overlay */}
+            <div
+                className="absolute inset-0 bg-cover bg-center opacity-20"
+                style={{ backgroundImage: `url(${heroImage})` }}
+            />
             <div className='w-99.5 md:w-full flex flex-col md:flex-row items-center gap-12'>
                 <div className='absolute inset-0 bg-linear-to-br from-black/40 to-transparent'></div>
                 <div className='absolute top-20 left-10 w-20 h-20 rounded-full bg-white/10 animate-float'></div>
                 <div className='absolute bottom-20 right-20 w-32 h-32 rounded-full bg-white/5 animate-float'></div>
                 <div className='relative z-10 max-6xl mx-auto px-6 py-14 md:py-24'>
-                    <div className='flex flex-col md:flex-row items-center gap-16'>
-                        <div className='flex-1 flex-col gap-8 w-150  '>
-                            <div className='inline-flex w-37.5 items-center gap-2 bg-white/10 backdrop-blur-sm rounded-full px-4 py-2 mb-6'>
-                                <span className='w-2 h-2 bg-yellow-300 rounded-full animate-pulse'></span>
-                                <span className='text-white/90 text-sm font-medium'>Now Enrolling</span>
-                            </div>
-                            <h1 className='text-2xl md:text-5xl lg:text-6xl text-white font-bold leading-tight mb-6 w-70 md:w-120'>Basadi E-Waste Training Academy</h1>
-                            <p className='text-lg md:text-xl font-medium text-white/80 mb-8 max-w-xl w-80 md:w-120'>
-                                Empowering communities through sustainable e-waste management education and practical skills development.
-                            </p>
-                            <div className='w-76 md:w-72 flex items-center gap-2 bg-white/20 backdrop-blur-sm rounded-full px-4 py-3 mb-8 border border-white/30'>
-                                <MapPin size={16} color='white' />
-                                <p className='font-semibold text-white'>On-Site Training at Our Centre</p>
-                            </div>
-                            <div className='inline-flex items-center gap-2 md:gap-4 bg-white rounded-2xl px-4 py-2 md:px-6 md:py-4 shadow-xl mb-8'>
-                                <div className='w-10 h-10 md:w-12 md:h-12 bg-emerald-100 rounded-xl flex items-center justify-center'>
-                                    <BadgeCheck size={16} color='green' />
-                                </div>
-                                <div >
-                                    <p className='text-sm font-bold md:text-xl text-gray-900'>R1000 - 6 Weeks - Micro-Credential</p>
-                                    <p className='text-sm text-gray-500'>Accredited skills certification</p>
+                    <div className='flex items-center'>
+                        <div className='flex-1 flex-col gap-8'>
+                            <div className='flex justify-center'>
+                                <div className='flex w-37.5 items-center gap-2 bg-white/10 backdrop-blur-sm rounded-full px-4 py-2 mb-6'>
+                                    <span className='w-2 h-2 bg-yellow-300 rounded-full animate-pulse'></span>
+                                    <span className='text-white/90 text-sm font-medium'>Now Enrolling</span>
                                 </div>
                             </div>
+
+                            <div className='flex justify-center text-center'>
+                                <h1 className='text-2xl md:text-5xl lg:text-6xl text-white font-bold leading-tight mb-6 w-70 md:w-160'>Basadi E-Waste Training Academy</h1>
+                            </div>
+
+                            <div className='flex justify-center text-center'>
+                                <p className='w-80 text-lg md:text-xl font-medium text-white mb-8 md:w-175'>
+                                    Empowering communities through sustainable e-waste management education and practical skills development.
+                                </p>
+                            </div>
+
+                            <div className='flex justify-center'>
+                                <div className='w-76 md:w-72 flex items-center gap-2 bg-white/20 backdrop-blur-sm rounded-full px-4 py-3 mb-8 border border-white/30'>
+                                    <MapPin size={16} color='white' />
+                                    <p className='font-semibold text-white'>On-Site Training at Our Centre</p>
+                                </div>
+                            </div>
+
+                            <div className='flex justify-center'>
+                                <div className='inline-flex items-center gap-2 md:gap-4 bg-white rounded-2xl px-4 py-2 md:px-6 md:py-4 shadow-xl mb-8'>
+                                    <div className='w-10 h-10 md:w-12 md:h-12 bg-emerald-100 rounded-xl flex items-center justify-center'>
+                                        <BadgeCheck size={16} color='green' />
+                                    </div>
+                                    <div >
+                                        <p className='text-sm font-bold md:text-xl text-gray-900'>R1000 - 6 Weeks - Micro-Credential</p>
+                                        <p className='text-sm text-gray-500'>Accredited skills certification</p>
+                                    </div>
+                                </div>
+                            </div>
+
                             {/* Apply Now Button */}
-                            <div>
+                            <div className='flex justify-center'>
                                 <button
                                     className='bg-[#16A249] text-white font-semibold px-8 py-4 rounded-xl text-lg shadow-lg cursor-pointer'
                                     onClick={handleApplyClick}
@@ -46,7 +67,7 @@ const HeroSection = () => {
                                 </button>
                             </div>
                         </div>
-                        <div className='hidden sm:flex relative'>
+                        {/* <div className='hidden sm:flex relative'>
                             <div className='relative bg-linear-to-br from-white/20 to-white/10 rounded-3xl p-8 backdrop-blur-sm border border-white/20 overflow-hidden'>
                                 <svg class="w-full h-80" viewBox="0 0 400 500" fill="none">
                                     <rect x="50" y="150" width="300" height="280" rx="15" fill="#1e6b38" stroke="#2fc1b2" stroke-width="2"></rect>
@@ -89,7 +110,7 @@ const HeroSection = () => {
                                     Accredited
                                 </div>
                             </div>
-                        </div>
+                        </div> */}
                     </div>
 
                 </div>
