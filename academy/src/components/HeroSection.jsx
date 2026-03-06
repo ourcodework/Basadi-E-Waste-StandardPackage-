@@ -52,7 +52,7 @@ const HeroSection = () => {
                                     </div>
                                     <div >
                                         <p className='text-sm font-bold md:text-xl text-gray-900'>R1000 - 6 Weeks - Micro-Credential</p>
-                                        <p className='text-sm text-gray-500'>Accredited skills certification</p>
+                                        {/* <p className='text-sm text-gray-500'>Accredited skills certification</p> */}
                                     </div>
                                 </div>
                             </div>
